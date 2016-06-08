@@ -1,0 +1,29 @@
+.header {
+	background-color: $yellow;
+	padding: 15px 0;
+}
+
+.email, .tel {
+	display: inline-block;
+	font-family: $osans;
+	color: $white;
+	font-size: 14px;
+		&:before {
+			padding-right: 5px;
+		}
+} 
+
+.email {
+	padding-right: 50px;
+	&:before {
+		content: $font-Flaticon-mail;
+		font-family: "flaticon";
+	}
+}
+
+.tel {
+	&:before {
+		content: $font-Flaticon-phone-receiver;
+		font-family: "flaticon";
+	}
+}

@@ -1,0 +1,13 @@
+.button {
+	a {
+		display: inline-block;
+		text-transform: uppercase;
+		color: $white;
+		font-family: $osans;
+		padding: 10px;
+		border: 2px solid $yellow;
+		 &:hover {
+				transform: scale(1.1);	
+		 }
+	}
+}

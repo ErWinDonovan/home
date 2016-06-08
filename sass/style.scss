@@ -1,0 +1,21 @@
+/*********RESET**********/
+@import "compass/reset";
+
+/*********FONTS**********/
+@import "utilities/settings";
+
+/*********BASE***********/
+@import "base/base";
+
+/*********LAYOUT*********/
+@import "layout/grid";
+
+/********SECTIONS********/
+@import "modules/header";
+@import "modules/menu";
+@import "modules/slider";
+
+/*********OTHER*********/
+@import "modules/social";
+@import "modules/button";
+

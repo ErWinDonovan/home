@@ -1,0 +1,42 @@
+.menu-wrapper {
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+}
+
+.menu {
+	background-color: $white;
+	display: table;
+	width: 100%;
+	min-height: 90px;
+	padding: 0 20px;
+}
+
+.logo {
+	display: table-cell;
+	vertical-align: middle;
+	img {
+		max-width: 100px;
+	}
+}
+
+.nav {
+	display: table-cell;
+	text-align: right;
+	vertical-align: middle;
+	li {
+		display: inline-block;
+		margin-right: 35px;
+		a {
+			font-family: $osans;
+			font-size: 14px;
+			text-transform: uppercase;
+			padding: 5px;
+			display: block;
+			&:hover {
+				color: $yellow;
+				transform: scale(1.5);
+			}
+		}
+	}
+}

@@ -1,0 +1,84 @@
+.slider {
+	max-height: 960px;
+	overflow: hidden;
+	position: relative;
+	background-color: #000;
+}
+
+.article-img {
+		opacity: 0.6;
+}
+
+.switch-left, .switch-right {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	a {
+		display: block;
+		width: 75px;
+		height: 110px;
+		background-color: $black;
+		opacity: .8;
+		&:before {
+			font-family: "flaticon";
+			color: $white;
+			font-size: 50px;
+			line-height: 110px;
+		}
+		&:hover {
+			opacity: .9;
+		}
+	}
+}
+
+.switch-left {
+	left: 0;
+	a {
+		&:before {
+			content: $font-Flaticon-back;
+		}
+	}
+}
+
+.switch-right {
+	right: 0;
+	a {
+		&:before {
+			content: $font-Flaticon-next;
+		}
+	}
+}
+
+.article-text-wrapper {
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+	bottom: 0;
+}
+
+.article {
+	padding: 40px 10px;
+	color: $white;
+		.button {
+			text-align: right;
+			a {
+				background-color: $yellow;
+			}
+		}
+}
+
+.article-title {
+	h1 {
+	font-size: 50px;
+	text-transform: uppercase;	
+	line-height: 1.2;
+	}
+}
+
+.article-text {
+	p {
+		color: $white;
+		line-height: 1.6;
+	}
+}
