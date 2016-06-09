@@ -44,6 +44,14 @@
 	}
 }
 
+.googleplus {
+	a {
+		&:before {
+			content: $font-Flaticon-google-plus;
+		}
+	}
+}
+
 .dribbble {
 	a {
 		&:before {

@@ -72,8 +72,9 @@
 				background-color: $yellow;
 				color: $white;
 				&:hover {
-					color: $white;
-					border-color: $white;
+					background-color: $light-gray;
+					color: $yellow;
+					border-color: $yellow;
 				}
 			}
 		}

@@ -1,0 +1,63 @@
+.test-left, .test-right {
+	a {
+		display: block;
+		min-height: 230px;
+		background-color: $yellow;
+		border: 2px solid $yellow;
+		&:before {
+			font-family: "flaticon";
+			font-size: 40px;
+			color: $white;
+			line-height: 230px;
+			display: block;
+			margin: auto;
+			width: 40px;
+		}
+		&:hover {
+			background-color: $light-gray;
+			&:before {
+				color: $yellow;
+			}
+		}
+	}
+}
+
+.test-left {
+	a {
+		&:before {
+			content: $font-Flaticon-back;
+		}
+	}
+}
+
+.test-right {
+	a {
+		&:before {
+			content: $font-Flaticon-next;
+		}
+	}
+}
+
+.test-photo {
+	max-height: 230px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.test-text {
+	margin-bottom: 20px;
+	p {
+		font-weight: 300;
+		font-size: 20px;
+	}
+}
+
+.test-name {
+	text-transform: uppercase;
+	font-weight: 300;
+	color: $gray;
+	margin-bottom: 0;
+	span {
+		font-weight: 800;
+	}
+}

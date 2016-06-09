@@ -82,7 +82,13 @@
 		height: 60px;
 		background-color: $yellow;
 	 	display: block;
+	 	&:hover {
+	 		&:before {
+	 			color: $light-black;
+	 		}
+	 	}
 	 	&:before {
+	 		transition: .2s;
 			font-family: "flaticon";
 			font-size: 35px;
 			color: $white;

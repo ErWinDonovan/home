@@ -25,3 +25,20 @@
 		}
 	}
 }
+
+button {
+	text-transform: uppercase;
+	border: 2px solid $yellow;
+	padding: 10px 30px;
+	background-color: $yellow;
+	font-family: $roboto;
+	font-weight: 800;
+	cursor: pointer;
+	font-size: 30px;
+	color: $white;
+	transition: .2s;
+		&:hover {
+			background-color: $light-gray;
+			color: $yellow;
+		}
+}

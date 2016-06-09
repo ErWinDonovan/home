@@ -1,0 +1,26 @@
+input, textarea {
+	position: relative;
+	color: #fff;
+	width: 100%;
+	margin-bottom: 25px;
+	border: 2px solid $yellow;
+	font-family: $osans;
+	font-size: 24px;
+	padding-left: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	background: transparent;
+	display: block;
+}
+
+textarea {
+	max-height: 177px;
+}
+
+
+
+::-webkit-input-placeholder {color:#fff;}
+::-moz-placeholder          {color:#fff;}
+:-moz-placeholder           {color:#fff;}
+:-ms-input-placeholder      {color:#fff;}
