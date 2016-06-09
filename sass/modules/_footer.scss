@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer {
 	background-color: $black;
 	text-align: center;
@@ -10,4 +11,18 @@
 			}
 		}
 	}
+=======
+.footer {
+	background-color: $black;
+	text-align: center;
+	p {
+		color: $white;
+		a {
+			color: $yellow;
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+>>>>>>> origin/master
 }

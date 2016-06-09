@@ -1,3 +1,147 @@
+<<<<<<< HEAD
+.project {
+	background-color: $purple;
+	.block-header {
+		h1 {
+			color: $white;
+		}
+	}
+}
+
+.project-buttons {
+	text-align: center;
+	margin-bottom: 40px;
+	.button {
+		padding-right: 5px;
+		padding-left: 5px;
+		display: inline-block;
+		margin-bottom: 20px;
+		a {
+			color: $white;
+			padding-left: 30px;
+			padding-right: 30px;
+			&:hover {
+				color: $white;
+				border-color: $white;
+			}
+		}
+	}
+}
+
+.project-content {
+	position: relative;
+	margin-bottom: 30px;
+	text-align: center;	
+	&:before {
+		content: "";
+		display: block;
+		font-family: "flaticon";
+		position: absolute;
+		top: -8px;
+		left: 8px;
+		width: 40px;
+		height: 40px;
+		background-color: $yellow;
+		z-index: 2;
+		overflow: visible;
+		color: $white;
+		font-size: 22px;
+		line-height: 40px;
+	}
+	&:hover .project-name {
+		visibility: visible;
+		opacity: 1;
+	}
+	&:hover {
+		.project-pic {
+			opacity: .6;
+		}
+	}
+}
+
+.project-name {
+	position: absolute;
+	bottom: 0;
+	z-index: 5;
+	text-align: center;
+	width: 100%;
+	visibility: none;
+	opacity: 0;
+	transition: 0.2s;
+	h2 {
+		text-transform: uppercase;
+		color: $white;
+		margin: 0;
+		padding: 10px;
+		background-color: rgba($black, 0.6);
+	}
+}
+
+.view, .link {
+	 a {
+		width: 100px;
+		height: 60px;
+		background-color: $yellow;
+	 	display: block;
+	 	&:before {
+			font-family: "flaticon";
+			font-size: 35px;
+			color: $white;
+			line-height: 60px;
+   	}
+	 }
+}
+
+.view {
+	a {
+   	&:before {
+			content: $font-Flaticon-zoom-in;
+   	}
+	}
+}
+
+.link {
+	a {
+   	float: right;
+   	position: absolute;
+   	right: 0;
+   	top: 0;
+   	&:before {
+			content: $font-Flaticon-link-symbol;
+   	}
+	}
+}
+
+.project-pic {
+	min-height: 530px;
+	position: relative;
+	overflow: hidden;
+	img {
+		position: absolute;
+		top:0;
+		left:0;
+		max-width: none;
+    	height: 100%;
+    	transform: scale(1.2);
+    	z-index: 1;
+    }
+}
+
+.small {
+	min-height: 250px;
+}
+
+.ic-video {
+	&:before {
+	content: $font-Flaticon-technology;
+	}
+}
+
+.ic-photo {
+	&:before {
+	content: $font-Flaticon-photo;
+	}
+=======
 .project {
 	background-color: $purple;
 	.block-header {
@@ -23,4 +167,5 @@
 			}
 		}
 	}
+>>>>>>> origin/master
 }

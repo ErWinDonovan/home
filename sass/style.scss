@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*********RESET**********/
 @import "compass/reset";
 
@@ -29,3 +30,36 @@
 @import "modules/social";
 @import "modules/button";
 
+=======
+/*********RESET**********/
+@import "compass/reset";
+
+/*********FONTS**********/
+@import "utilities/settings";
+
+/*********BASE***********/
+@import "base/base";
+
+/*********LAYOUT*********/
+@import "layout/grid";
+@import "layout/layout";
+
+/********SECTIONS********/
+@import "modules/header";
+@import "modules/menu";
+@import "modules/slider";
+@import "modules/about";
+@import "modules/service";
+@import "modules/project";
+@import "modules/testimon";
+@import "modules/team";
+@import "modules/blog";
+@import "modules/partner";
+@import "modules/contact";
+@import "modules/footer";
+
+/*********OTHER*********/
+@import "modules/social";
+@import "modules/button";
+
+>>>>>>> origin/master

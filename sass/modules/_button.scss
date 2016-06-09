@@ -1,3 +1,31 @@
+<<<<<<< HEAD
+.button {
+	a {
+		display: inline-block;
+		position: relative;
+		text-transform: uppercase;
+		color: $yellow;
+		font-family: $osans;
+		font-weight: 400;
+		font-size: 14px;
+		padding: 10px;
+		border: 2px solid $yellow;
+		&:hover {
+				color: $light-black;
+				border-color: $light-black;
+		}
+	}
+}
+
+.active-button {
+	a {
+		border-left: 10px solid $yellow !important;
+		border-right: 10px solid $yellow !important;
+		&:hover {
+			border-color: $white !important;
+		}
+	}
+=======
 .button {
 	a {
 		display: inline-block;
@@ -25,4 +53,5 @@
 			border-color: $white !important;
 		}
 	}
+>>>>>>> origin/master
 }
