@@ -38,6 +38,9 @@
 		&:before {
 			content: $font-Flaticon-back;
 		}
+		&:hover {
+			transform: translateX(-10px);
+		}
 	}
 }
 
@@ -46,6 +49,9 @@
 	a {
 		&:before {
 			content: $font-Flaticon-next;
+		}
+		&:hover {
+			transform: translateX(10px);
 		}
 	}
 }
@@ -64,6 +70,11 @@
 			text-align: right;
 			a {
 				background-color: $yellow;
+				color: $white;
+				&:hover {
+					color: $white;
+					border-color: $white;
+				}
 			}
 		}
 }

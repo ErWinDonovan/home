@@ -1,13 +1,28 @@
 .button {
 	a {
 		display: inline-block;
+		position: relative;
 		text-transform: uppercase;
-		color: $white;
+		color: $yellow;
 		font-family: $osans;
+		font-weight: 400;
+		font-size: 14px;
 		padding: 10px;
 		border: 2px solid $yellow;
-		 &:hover {
-				transform: scale(1.1);	
-		 }
+		&:hover {
+				transform: translateY(1px);
+				color: $light-black;
+				border-color: $light-black;
+		}
+	}
+}
+
+.active-button {
+	a {
+		border-left: 10px solid $yellow !important;
+		border-right: 10px solid $yellow !important;
+		&:hover {
+			border-color: $white !important;
+		}
 	}
 }
