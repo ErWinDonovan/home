@@ -1062,6 +1062,36 @@ a:hover {
   position: fixed;
 }
 
+.about, .service, .project, .testimon, .team, .blog, .partner, .contact {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.team, .partner, .service {
+  background-color: #f3f3f3;
+}
+
+.block-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.block-header h1 {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 72px;
+  margin-bottom: 0;
+  line-height: 1;
+  border-left: 3px solid #e8bb22;
+  border-right: 3px solid #e8bb22;
+  padding: 20px 40px;
+  color: #51514f;
+}
+
 /********SECTIONS********/
 .header {
   background-color: #e8bb22;
@@ -1211,9 +1241,31 @@ a:hover {
   line-height: 1.6;
 }
 
+.project {
+  background-color: #242237;
+}
+.project .block-header h1 {
+  color: #fff;
+}
+
+.footer {
+  background-color: #000;
+  text-align: center;
+}
+.footer p {
+  color: #fff;
+}
+.footer p a {
+  color: #e8bb22;
+}
+.footer p a:hover {
+  color: #fff;
+}
+
 /*********OTHER*********/
 .social {
   float: right;
+  cursor: default;
 }
 .social li {
   display: inline-block;

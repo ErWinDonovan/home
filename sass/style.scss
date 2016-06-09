@@ -9,11 +9,21 @@
 
 /*********LAYOUT*********/
 @import "layout/grid";
+@import "layout/layout";
 
 /********SECTIONS********/
 @import "modules/header";
 @import "modules/menu";
 @import "modules/slider";
+@import "modules/about";
+@import "modules/service";
+@import "modules/project";
+@import "modules/testimon";
+@import "modules/team";
+@import "modules/blog";
+@import "modules/partner";
+@import "modules/contact";
+@import "modules/footer";
 
 /*********OTHER*********/
 @import "modules/social";
